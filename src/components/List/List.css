@@ -23,11 +23,12 @@
 
 .fade-enter {
   opacity: 0;
+  background: rgba(255, 255, 0, 0.9);
 }
 
 .fade-enter-active {
   opacity: 1;
-  transition: opacity 0.3s ease-out;
+  transition: opacity 0.3s ease-in-out;
 }
 
 .fade-exit {
